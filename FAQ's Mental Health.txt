@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindMatters - Mental Health FAQ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9fb;
+      color: #333;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #e6efff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #004080;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      color: #4a90e2;
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 5px;
+    }
+
+    .faq-item {
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    .faq-item .question {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333;
+      background-color: #eef3fb;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .faq-item .answer {
+      display: none;
+      margin: 10px 0 20px 0;
+      padding: 10px;
+      background-color: #f3f7ff;
+      border-left: 4px solid #4a90e2;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #e6efff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      nav {
+        font-size: 0.95em;
+      }
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧠 MindMatters</h1>
+    <p>Your Mental Health FAQ Hub</p>
+  </header>
+
+  <nav>
+    <a href="#what-is-mental-health">What Is Mental Health?</a>
+    <a href="#common-mental-health-conditions">Common Conditions</a>
+    <a href="#when-to-seek-help">When to Seek Help</a>
+    <a href="#treatment-and-therapy">Treatment & Therapy</a>
+    <a href="#mental-health-and-daily-life">Daily Life</a>
+    <a href="#support-resources">Resources</a>
+  </nav>
+
+  <main>
+    <section id="what-is-mental-health">
+      <h2>❓ What Is Mental Health?</h2>
+      <div class="faq-item">
+        <div class="question">What is mental health?</div>
+        <div class="answer">Mental health refers to our emotional, psychological, and social well-being. It affects how we think, feel, act, make choices, and relate to others.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Is mental health the same as mental illness?</div>
+        <div class="answer">Not exactly. Mental health is a broad concept that includes both mental wellness and mental illness. Everyone has mental health, just like physical health.</div>
+      </div>
+    </section>
+
+    <section id="common-mental-health-conditions">
+      <h2>🧩 Common Mental Health Conditions</h2>
+      <div class="faq-item">
+        <div class="question">What are the most common mental health conditions?</div>
+        <div class="answer">Some common conditions include anxiety disorders, depression, bipolar disorder, PTSD, OCD, and eating disorders.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">How do I know if I have a mental health disorder?</div>
+        <div class="answer">If your thoughts, emotions, or behaviors interfere with your daily life for an extended period, it may be time to talk to a mental health professional.</div>
+      </div>
+    </section>
+
+    <section id="when-to-seek-help">
+      <h2>🆘 When to Seek Help</h2>
+      <div class="faq-item">
+        <div class="question">When should I seek professional help?</div>
+        <div class="answer">If you’re feeling overwhelmed, persistently sad, anxious, or having trouble functioning in daily life, it’s okay (and healthy) to ask for help.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">What if I’m not sure it’s “serious enough”?</div>
+        <div class="answer">You don’t have to wait for a crisis to seek support. Early intervention makes a big difference.</div>
+      </div>
+    </section>
+
+    <section id="treatment-and-therapy">
+      <h2>💬 Treatment & Therapy</h2>
+      <div class="faq-item">
+        <div class="question">What are common treatments for mental health issues?</div>
+        <div class="answer">Treatment often includes talk therapy (CBT, DBT), medication, lifestyle changes, and support groups.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Can therapy really help me?</div>
+        <div class="answer">Yes. Many people find therapy incredibly helpful—it provides tools to manage stress, process trauma, and understand your thoughts.</div>
+      </div>
+    </section>
+
+    <section id="mental-health-and-daily-life">
+      <h2>🌱 Mental Health & Daily Life</h2>
+      <div class="faq-item">
+        <div class="question">How can I support my mental health day-to-day?</div>
+        <div class="answer">Sleep well, eat healthy, exercise, stay connected, practice mindfulness, and take breaks from screens and negativity.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">How can I help a loved one who's struggling?</div>
+        <div class="answer">Listen without judgment, offer support, and encourage them to seek help. Just showing you care makes a difference.</div>
+      </div>
+    </section>
+
+    <section id="support-resources">
+      <h2>📞 Support Resources</h2>
+      <ul>
+        <li><strong>National Suicide Prevention Lifeline (US):</strong> 988</li>
+        <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+        <li><strong>MentalHealth.gov:</strong> Government info and support</li>
+        <li><strong>NAMI (National Alliance on Mental Illness):</strong> Advocacy & education</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💌 Contact Us</h2>
+      <p>Got a question not listed here? Want to collaborate or share a story? Email us at: <a href="mailto:hello@mindmatters.org">hello@mindmatters.org</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 MindMatters | Empowering Mental Wellness Together
+  </footer>
+
+  <script>
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+      const question = item.querySelector('.question');
+      const answer = item.querySelector('.answer');
+
+      question.addEventListener('click', () => {
+        const isVisible = answer.style.display === 'block';
+        answer.style.display = isVisible ? 'none' : 'block';
+      });
+    });
+  </script>
+</body>
+</html>
